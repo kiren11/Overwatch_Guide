@@ -1,0 +1,76 @@
+/* overwatch font big noodle tilting */
+@font-face {
+    font-family: bigNoodleTilting;
+    src: url('../OW_APP/big_noodle_titling.woff') format('woff'),
+   url('../OW_APP/big_noodle_titling.ttf') format('truetype'); 
+}
+
+/* hero name */
+h1 {
+    font-family: bigNoodleTilting;
+    font-size: 60px;
+}
+
+#navSidePanel {
+    width: 225px;
+    top:0px;
+    right: 0px;
+    position: fixed;
+    height: 100%;
+    background: #A8B8C7;
+    font-family: bigNoodleTilting;
+    font-size: 25px;
+    z-index: 1;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+img {
+    padding-top: 10px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* bordered box for abilities */
+.box {
+    width: 75%;
+    border: black 2px solid;
+    margin-left: 45px;
+    margin-bottom: 60px;
+}
+
+.boxHeader {
+    width: 74.7%;
+    height: 45px;
+    font-family: bigNoodleTilting;
+    font-size: 39px;
+    color: black;
+    margin-left: 45px;
+    padding-left: 10px;
+    background-color: #A8B8C7;
+}
+

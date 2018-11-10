@@ -20,6 +20,7 @@
     font-family: bigNoodleTilting;
 }   
 
+
 /* navigation bar */
 ul {
     list-style-type: none;
@@ -51,8 +52,32 @@ li a:hover {
     background-color: orange;
 }
 
-/* paragraph describing website */
-#guideDesc {
-    font-family: Helvetica, sans-serif;
+img {
+    padding-top: 35px;
+    height: 300px;
+    width: 400px;
+}
+/* grid to hold map images, 4 per line */
+.flex-container {
+    padding-top: 55px;
+    top: 200px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-family: Montserrat, bold sans-serif;
+}
+
+/* for each map card, 4 per line */
+.map {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    flex: 1 0 17%; 
     font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: Montserrat, bold sans-serif;
 }

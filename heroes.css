@@ -20,6 +20,38 @@
     font-family: bigNoodleTilting;
 }   
 
+/* navigation bar */
+ul {
+    list-style-type: none;
+    margin: auto;
+    top: 150px;
+    left: 0px;
+    width: 100%;
+    font-size: 28px;
+    position: absolute;
+    overflow: hidden;
+    background-color: #333;
+    font-family: bigNoodleTilting;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* change button color when hovered over nav item */
+li a:hover {
+    background-color: orange;
+}
+
+/* grid to hold hero images */
 .flex-container {
     padding: 55px;
     top: 200px;
@@ -30,9 +62,15 @@
     justify-content: flex-start;
 }
 
+/* for each hero card */
 .hero {
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 30px;
     overflow: hidden;
     flex: 1 0 12%; 
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: Montserrat, bold sans-serif;
 }
